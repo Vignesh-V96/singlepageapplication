@@ -1,7 +1,5 @@
- var app= angular
-    .module("myApp", ["ngRoute"])
-    .config(function ($routeProvider, $locationProvider) {  
-        $locationProvider service
+var app = angular.module("myApp", ["ngRoute"])
+.config(function ($routeProvider, $locationProvider) { 
         $locationProvider.hashPrefix(''); 
         $routeProvider
             .when("/home", {
